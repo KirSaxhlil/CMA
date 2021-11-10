@@ -1,4 +1,4 @@
-// Решение СЛАУ обратным ходом метода Гаусса.
+// Решение СЛАУ методом Гаусса.
 
 using System;
 using System.Collections.Generic;
