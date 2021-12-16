@@ -37,7 +37,7 @@ namespace Lab5
                 }
                 else
                 {
-                    fi = (Math.Atan(((2 * A[I, J]) / (A[I, I] - A[J, J])) / 2);
+                    fi = Math.Atan( ( (2 * A[I, J]) / (A[I, I] - A[J, J]) ) / 2);
                     for (int i = 0; i < N; i++)
                     {
                         for (int j = 0; j < N; j++)
