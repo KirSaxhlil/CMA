@@ -28,7 +28,7 @@ namespace Lab5
                 I = 0; J = 1;
                 for (int i = 0; i < N; i++)
                 {
-                    for (int j = 0; j < N; j++)
+                    for (int j = i+1; j < N; j++)
                     {
                         if (Math.Abs(A[i, j]) > Math.Abs(max)) max = A[i, j]; I = i; J = j;
                     }
@@ -57,7 +57,7 @@ namespace Lab5
                     A = Multiply(Multiply(Transparent(H), A), H);
                     k++;
                 }
-            } while (k!=2);
+            } while (true);
 
             
             for (int i = 0; i < N; i++) Console.Write(L[i] + "\t");
